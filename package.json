@@ -1,0 +1,9 @@
+{
+  "name": "tip-calculator",
+  "version": "0.0.0",
+  "description": "Tip Calculator",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
