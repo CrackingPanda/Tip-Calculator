@@ -16,7 +16,7 @@
         <h1>Tip Calculator</h1>
     <div class="main">
         <label>Bill Amount &#8377;</label>
-        <input type="number" id="bill_amt" placeholder="Enter Bill Amount" style="margin-left:197px;"><br />
+        <input type="number" min ="0" id="bill_amt" placeholder="Enter Bill Amount" style="margin-left:197px;"><br />
         <label>How was our service?</label>
         <select name="services" id="serve" style="margin-left:135px;">
             <option selected value="0">Choose an Option</option>
@@ -26,7 +26,7 @@
             <option value="0.05">Poor --> 5%</option>
         </select><br />
         <label>How many people are sharing the bill ?</label>
-        <input type="number" id="peep" placeholder="Enter No. Of People" style="margin-left:8px;">
+        <input type="number" min="0" id="peep" placeholder="Enter No. Of People" style="margin-left:8px;">
         <input type="submit" onclick="tip()" value="Calculate" style="font-family:Raleway; width:20%;"/>
         <span style="padding:30px;">&#8377 <strong id="tip">0.00</strong> <strong id="num">Each</strong></span>
     </div>
