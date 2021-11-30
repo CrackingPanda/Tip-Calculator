@@ -19,11 +19,11 @@ function tip() {
     var total = (Bill * serve) / peep;
 
     //Rounding Off
-    total = Math.round(total * 100) / 100;
+    total = (total * 100) / 100;
 
-    total = total.toFixed(2);
+    var totalShow = total.toFixed(2);
 
     //Displaying Tip
 
-    document.getElementById("tip").innerHTML = total;
+    document.getElementById("tip").innerHTML = totalShow;
 }
